@@ -1,0 +1,26 @@
+{
+  "bounties": [
+    {
+      "id": "temu",
+      "title": "Temu Bug Bounty",
+      "target": "https://staging.temu.com/api/account",
+      "method": "PUT",
+      "param": "balance",
+      "instructions": "جرّب تغيير قيمة balance وأرسل النتيجة هنا",
+      "difficulty": "medium",
+      "reward": "$$$",
+      "category": "api"
+    },
+    {
+      "id": "example",
+      "title": "Example Corp",
+      "target": "https://staging.example.com/api/item",
+      "method": "POST",
+      "param": "price",
+      "instructions": "حاول تعديل قيمة price وأرسل PoC",
+      "difficulty": "easy",
+      "reward": "$$",
+      "category": "api"
+    }
+  ]
+}
